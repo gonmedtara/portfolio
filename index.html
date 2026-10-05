@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Mohamed Gontara — Développeur Front-end Sénior 9+ ans — Angular, Vue, Nuxt, React — Île-de-France">
-  <meta name="keywords" content="Mohamed Gontara, développeur frontend, Angular, Vue, Nuxt, React, TypeScript, JavaScript, Paris, Île-de-France">
+  <meta name="description" content="Mohamed Gontara — Développeur Front-end Sénior, full stack augmenté — Angular, Vue, React, GitHub Copilot, Claude, MCP — Île-de-France">
+  <meta name="keywords" content="Mohamed Gontara, développeur frontend, Angular, Vue, Nuxt, React, TypeScript, GitHub Copilot, MCP, Claude, Île-de-France">
   <meta property="og:title" content="Mohamed Gontara — Senior Frontend Developer">
-  <meta property="og:description" content="9+ ans d'expérience. Angular, Vue/Nuxt, React, TypeScript.">
+  <meta property="og:description" content="9+ ans d'expérience. Angular, Vue, React, et pratiques IA (Copilot, Claude, MCP).">
   <meta property="og:type" content="website">
   <meta name="theme-color" content="#050508">
   <title>Mohamed Gontara | Senior Frontend Developer</title>
@@ -201,6 +201,7 @@
     .cert-year { font-family: 'JetBrains Mono', monospace; color: var(--accent); font-size: 0.85rem; }
     .cert-link-label { font-size: 0.75rem; color: var(--muted); margin-top: 0.75rem; font-family: 'JetBrains Mono', monospace; }
     .cert-card:hover .cert-link-label { color: var(--accent); }
+    #formation { background: var(--dark2); }
 
     /* CONTACT */
     .contact-card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 3rem; max-width: 600px; }
@@ -215,6 +216,14 @@
     /* FOOTER */
     footer { text-align: center; padding: 2rem; color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--border); font-family: 'JetBrains Mono', monospace; }
 
+    @media (max-width: 1200px) {
+      .nav-links { gap: 1.1rem; }
+    }
+    @media (max-width: 980px) {
+      nav { padding: 1rem 1.25rem; }
+      .nav-links { gap: 0.75rem; }
+      .nav-links a { font-size: 0.72rem; letter-spacing: 0.04em; }
+    }
     @media (max-width: 768px) {
       nav .nav-links { display: none; }
       .hero-stats { gap: 1.5rem; }
@@ -231,6 +240,8 @@
     <li><a href="#skills">Skills</a></li>
     <li><a href="#experience">Experience</a></li>
     <li><a href="#certifications">Certs</a></li>
+    <li><a href="#interventions">Interventions</a></li>
+    <li><a href="#formation">Formation</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
@@ -247,8 +258,8 @@
           <span class="fpill g">Vue 3</span>
           <span class="fpill p">React</span>
           <span class="fpill">TypeScript</span>
-          <span class="fpill">NestJS</span>
-          <span class="fpill">Docker</span>
+          <span class="fpill">MCP</span>
+          <span class="fpill">Copilot</span>
         </div>
       </div>
     </div>
@@ -256,7 +267,7 @@
       <div class="fcard fcard-mission">
         <div class="fstatus"><span class="fstatus-dot"></span>En mission</div>
         <div class="fcompany">Société Générale</div>
-        <div class="frole">Développeur Sénior Angular</div>
+        <div class="frole">Full stack augmenté</div>
         <div class="fsince">Depuis avril 2025</div>
       </div>
     </div>
@@ -268,14 +279,14 @@
     </div>
   </div>
   <div class="hero-content">
-    <div class="hero-badge">Senior Frontend Developer · Île-de-France</div>
+    <div class="hero-badge">Senior Frontend · Full stack augmenté · Île-de-France</div>
     <h1>Mohamed<br><span>Gontara</span></h1>
     <p class="hero-title">Développeur Front-end Sénior</p>
-    <p class="hero-desc">Spécialisé JavaScript/TypeScript (Angular, Vue/Nuxt, React). Je transforme des problématiques métier complexes en interfaces fluides, performantes et pérennes.</p>
+    <p class="hero-desc">JavaScript et TypeScript (Angular, Vue/Nuxt, React), en posture full stack augmentée. Je conçois des interfaces performantes et accessibles, et je structure l’usage de GitHub Copilot, Claude et MCP dans les équipes.</p>
     <div class="hero-stats">
       <div class="stat"><span class="stat-number">9+</span><span class="stat-label">Années d'XP</span></div>
       <div class="stat"><span class="stat-number">3</span><span class="stat-label">Frameworks</span></div>
-      <div class="stat"><span class="stat-number">4</span><span class="stat-label">Certifications</span></div>
+      <div class="stat"><span class="stat-number">6</span><span class="stat-label">Certifications</span></div>
     </div>
     <div class="hero-cta">
       <a href="#contact" class="btn-primary">📧 Me contacter</a>
@@ -287,31 +298,39 @@
 <section class="skills" id="skills">
   <p class="section-tag">// expertise</p>
   <h2 class="section-title">Stack technique</h2>
-  <p class="section-subtitle">9 ans d'expérience sur l'ensemble de l'écosystème JavaScript moderne.</p>
+  <p class="section-subtitle">Front JavaScript, back de proximité, et outillage IA pour les équipes.</p>
   <div class="skills-grid">
     <div class="skill-card">
       <div class="skill-card-title">⚡ Frameworks Front</div>
-      <div class="tags"><span class="tag main">Angular</span><span class="tag main">Vue 3</span><span class="tag main">Nuxt 3</span><span class="tag main">React</span></div>
+      <div class="tags"><span class="tag main">Angular</span><span class="tag main">Vue.js</span><span class="tag main">Nuxt</span><span class="tag main">React</span></div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-card-title">✦ IA & dev augmenté</div>
+      <div class="tags"><span class="tag main">GitHub Copilot</span><span class="tag main">Claude Code</span><span class="tag main">MCP</span><span class="tag">Claude SDK</span><span class="tag">Agents & skills</span><span class="tag">Context management</span></div>
     </div>
     <div class="skill-card">
       <div class="skill-card-title">🔤 Langages</div>
-      <div class="tags"><span class="tag main">TypeScript</span><span class="tag main">JavaScript</span><span class="tag">HTML5</span><span class="tag">CSS3 / SASS</span></div>
+      <div class="tags"><span class="tag main">TypeScript</span><span class="tag main">JavaScript</span><span class="tag">Java</span><span class="tag">HTML5</span><span class="tag">CSS3 / SASS</span></div>
     </div>
     <div class="skill-card">
       <div class="skill-card-title">📦 State & Libraries</div>
-      <div class="tags"><span class="tag">NGRX</span><span class="tag">Vuex / Pinia</span><span class="tag">Redux</span><span class="tag">RxJS</span></div>
+      <div class="tags"><span class="tag">NGRX</span><span class="tag">Vuex</span><span class="tag">Redux</span><span class="tag">RxJS</span></div>
     </div>
     <div class="skill-card">
       <div class="skill-card-title">🛠️ Back & APIs</div>
-      <div class="tags"><span class="tag">NestJS</span><span class="tag">Express</span><span class="tag">Spring Boot</span><span class="tag">Elasticsearch</span></div>
+      <div class="tags"><span class="tag">NestJS</span><span class="tag">Spring Boot</span><span class="tag">Express</span><span class="tag">Sails.js</span><span class="tag">Elasticsearch</span></div>
     </div>
     <div class="skill-card">
       <div class="skill-card-title">🚀 CI/CD & Cloud</div>
-      <div class="tags"><span class="tag">Docker</span><span class="tag">GitHub Actions</span><span class="tag">Azure</span><span class="tag">AWS</span><span class="tag">Jenkins</span></div>
+      <div class="tags"><span class="tag">Docker</span><span class="tag">GitHub Actions</span><span class="tag">GitLab CI</span><span class="tag">Jenkins</span><span class="tag">Azure</span><span class="tag">AWS</span><span class="tag">Sonar</span></div>
     </div>
     <div class="skill-card">
-      <div class="skill-card-title">🧪 Tests & Qualité</div>
-      <div class="tags"><span class="tag">Jest</span><span class="tag">Cypress</span><span class="tag">Vitest</span><span class="tag">SonarQube</span></div>
+      <div class="skill-card-title">🧪 Tests</div>
+      <div class="tags"><span class="tag">Jest</span><span class="tag">Cypress</span><span class="tag">Karma</span><span class="tag">Jasmine</span><span class="tag">Mocha</span></div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-card-title">🌐 Langues & delivery</div>
+      <div class="tags"><span class="tag main">Anglais courant</span><span class="tag">Agile Scrum</span><span class="tag">Jira</span><span class="tag">Git</span></div>
     </div>
   </div>
 </section>
@@ -324,28 +343,29 @@
       <div class="timeline-dot"></div>
       <div class="timeline-period">Avril 2025 → Aujourd'hui</div>
       <div class="timeline-company">Société Générale</div>
-      <div class="timeline-role">Développeur sénior Angular</div>
+      <div class="timeline-role">Développeur full stack augmenté · SG Markets</div>
       <ul class="timeline-list">
-        <li>Interfaces complexes Angular 17→20, micro-frontend, librairies internes</li>
-        <li>Intégration Figma avec focus A11y et performance</li>
-        <li>Back-For-Front NestJS / Spring Boot</li>
-        <li>Leadership technique équipe offshore (Inde) · GitHub Copilot</li>
-        <li>CI/CD GitHub Actions → Azure Blob Storage</li>
+        <li>Plateforme de services financiers pour clients institutionnels : prix, trading, analyse, documentation</li>
+        <li>Front Angular, Vue.js et React · migration Angular vers la v22</li>
+        <li>Back Spring Boot (migration 3.5 → 4) et BFF NestJS / Spring Boot</li>
+        <li>Performance et accessibilité</li>
+        <li>Cadrage de GitHub Copilot pour l’équipe : agents, skills, contexte et fichiers d’instruction</li>
+        <li>Conception d’un serveur MCP pour partager les instructions et outils IA de l’équipe</li>
       </ul>
       <div class="timeline-tags">
-        <span class="timeline-tag">Angular 17-20</span><span class="timeline-tag">NestJS</span><span class="timeline-tag">Azure</span><span class="timeline-tag">GitHub Copilot</span><span class="timeline-tag">A11y</span>
+        <span class="timeline-tag">Angular 22</span><span class="timeline-tag">Vue.js</span><span class="timeline-tag">React</span><span class="timeline-tag">NestJS</span><span class="timeline-tag">Spring Boot</span><span class="timeline-tag">MCP</span><span class="timeline-tag">GitHub Copilot</span><span class="timeline-tag">Azure</span>
       </div>
     </div>
     <div class="timeline-item">
       <div class="timeline-dot"></div>
       <div class="timeline-period">Sep 2023 → Mar 2025</div>
       <div class="timeline-company">Allianz</div>
-      <div class="timeline-role">Développeur sénior Angular</div>
+      <div class="timeline-role">Développeur sénior Angular · équipe One Marketing</div>
       <ul class="timeline-list">
-        <li>Projet Skywalker · Angular 13→16, Figma HTML5/SASS</li>
-        <li>Migration de 7 projets Angular (v13→v14→v15→v16)</li>
-        <li>Pipelines CI/CD Bitbucket + Jenkins</li>
-        <li>Support offshore et bonnes pratiques d'architecture</li>
+        <li>Skywalker : changement de mode de gestion des contrats santé collective</li>
+        <li>5 projets front · Angular 13 et 16, intégration de maquettes Figma (HTML, Sass)</li>
+        <li>Migration Angular 13 → 16</li>
+        <li>Chiffrage, suivi des développements et coordination des acteurs</li>
       </ul>
       <div class="timeline-tags">
         <span class="timeline-tag">Angular 13-16</span><span class="timeline-tag">NGRX</span><span class="timeline-tag">SASS</span><span class="timeline-tag">Jenkins</span>
@@ -357,12 +377,14 @@
       <div class="timeline-company">Certinergy · ENGIE</div>
       <div class="timeline-role">Développeur sénior Vue.js / Node.js</div>
       <ul class="timeline-list">
-        <li>Développement from scratch application Emeely (Vue 3 + Vuex)</li>
-        <li>API REST Node.js + moteur Elasticsearch</li>
-        <li>CI/CD complet Docker + Jenkins + AWS</li>
+        <li>Application Emeely from scratch (Vue 3, Vuex) : suivi et traitement de données de rénovation énergétique</li>
+        <li>API REST Node.js / Express et moteur d’indexation Elasticsearch</li>
+        <li>CI/CD front : Docker, GitHub Actions, AWS</li>
+        <li>Bouchons d’API et d’authentification pour les tests de bout en bout en local</li>
+        <li>Ateliers avec les équipes internes, suivi et coordination</li>
       </ul>
       <div class="timeline-tags">
-        <span class="timeline-tag">Vue 3</span><span class="timeline-tag">Vuex</span><span class="timeline-tag">Node.js</span><span class="timeline-tag">AWS</span><span class="timeline-tag">Elasticsearch</span>
+        <span class="timeline-tag">Vue 3</span><span class="timeline-tag">Vuex</span><span class="timeline-tag">Node.js</span><span class="timeline-tag">Elasticsearch</span><span class="timeline-tag">AWS</span><span class="timeline-tag">GitHub Actions</span>
       </div>
     </div>
     <div class="timeline-item">
@@ -371,9 +393,11 @@
       <div class="timeline-company">Open Groupe</div>
       <div class="timeline-role">Référent Front-end</div>
       <ul class="timeline-list">
-        <li>Design System interne · workspace Angular multi-projets</li>
-        <li>France Transfert (Ministère Culture), Fastlab APHP, Enedis, Nexity</li>
-        <li>Angular, Vue.js (ThreeJS 3D), React · audits de performance</li>
+        <li>France Transfert (Ministère de la Culture) : workspace Angular multi-projets et librairie de composants partagés</li>
+        <li>Référent front : IAD, Enedis, APHP (usine logicielle et socles) et Nexity</li>
+        <li>Arbre des compétences : visualisation 3D (Vue.js, Three.js)</li>
+        <li>Handsaway : application mobile de signalement (React Native)</li>
+        <li>Audits qualité et performance, animation et gestion d’équipe front</li>
       </ul>
       <div class="timeline-tags">
         <span class="timeline-tag">Angular</span><span class="timeline-tag">Vue.js</span><span class="timeline-tag">React</span><span class="timeline-tag">ThreeJS</span><span class="timeline-tag">Design System</span>
@@ -385,9 +409,10 @@
       <div class="timeline-company">SiFAST</div>
       <div class="timeline-role">Développeur Front-end</div>
       <ul class="timeline-list">
-        <li>PWA Angular · apps mobiles Ionic + React Native</li>
-        <li>Clients : McDonald's France, DUERP (assurance)</li>
-        <li>Socles Webpack TypeScript, mode offline, Redux</li>
+        <li>PWA Angular : assurances et risques (DUERP), gestion de projets McDonald’s France</li>
+        <li>Applications mobiles Ionic (McDonald’s France) et React Native</li>
+        <li>Simulateur Simuleo (Angular, SVG)</li>
+        <li>Socle front Webpack / TypeScript : PWA, Redux, mode hors-ligne, chaîne de build et de tests</li>
       </ul>
       <div class="timeline-tags">
         <span class="timeline-tag">Angular</span><span class="timeline-tag">Ionic</span><span class="timeline-tag">React Native</span><span class="timeline-tag">PWA</span>
@@ -398,8 +423,18 @@
 <section class="certs" id="certifications">
   <p class="section-tag">// certifications</p>
   <h2 class="section-title">Certifications</h2>
-  <p class="section-subtitle">Formation continue sur les technologies clés de l'écosystème front.</p>
+  <p class="section-subtitle">Front, JavaScript, et fondamentaux Claude.</p>
   <div class="certs-grid">
+    <div class="cert-card">
+      <div class="cert-icon">✦</div>
+      <div class="cert-name">Claude Architect Foundations</div>
+      <div class="cert-year">Anthropic</div>
+    </div>
+    <div class="cert-card">
+      <div class="cert-icon">✦</div>
+      <div class="cert-name">Claude Developer Foundations</div>
+      <div class="cert-year">Anthropic</div>
+    </div>
     <a class="cert-card" href="https://interstate21.com/certificate/?code=6B25XLP" target="_blank">
       <div class="cert-icon">⚛️</div>
       <div class="cert-name">React Developer</div>
@@ -421,15 +456,48 @@
     <a class="cert-card" href="https://interstate21.com/certificate/?code=4D11TD0" target="_blank">
       <div class="cert-icon">🔺</div>
       <div class="cert-name">Angular Developer LV3</div>
-      <div class="cert-year">2023</div>
+      <div class="cert-year">2023 – 2026</div>
       <div class="cert-link-label">↗ Voir le certificat</div>
     </a>
+  </div>
+</section>
+<section id="interventions">
+  <p class="section-tag">// interventions</p>
+  <h2 class="section-title">Interventions</h2>
+  <p class="section-subtitle">Transmission des pratiques de développement augmenté.</p>
+  <div class="contact-card">
+    <div class="contact-item">
+      <div class="contact-icon">✦</div>
+      <div>
+        <div class="contact-label">GitHub Copilot Facilitator</div>
+        <div class="contact-value">Hackathon AI LVMH, aux côtés des équipes GitHub, Microsoft et Anthropic</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="formation">
+  <p class="section-tag">// formation</p>
+  <h2 class="section-title">Formation</h2>
+  <p class="section-subtitle">Diplômes d’ingénierie, avant les missions en Île-de-France.</p>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-period">2017</div>
+      <div class="timeline-company">Diplôme national d’ingénieur</div>
+      <div class="timeline-role">Réseaux et télécommunications · Sfax, Tunisie</div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-period">2014</div>
+      <div class="timeline-company">Licence appliquée</div>
+      <div class="timeline-role">Informatique industrielle · Sfax, Tunisie</div>
+    </div>
   </div>
 </section>
 <section id="contact">
   <p class="section-tag">// contact</p>
   <h2 class="section-title">Me contacter</h2>
-  <p class="section-subtitle">N'hésitez pas à me retrouver sur les réseaux ou par email.</p>
+  <p class="section-subtitle">LinkedIn et articles, pour échanger sur une mission.</p>
   <div class="contact-card">
     <div class="contact-item">
       <div class="contact-icon">💼</div>
