@@ -201,6 +201,8 @@
     .cert-year { font-family: 'JetBrains Mono', monospace; color: var(--accent); font-size: 0.85rem; }
     .cert-link-label { font-size: 0.75rem; color: var(--muted); margin-top: 0.75rem; font-family: 'JetBrains Mono', monospace; }
     .cert-card:hover .cert-link-label { color: var(--accent); }
+    .cert-card.pending { border-style: dashed; cursor: default; }
+    .cert-card.pending:hover { transform: none; border-color: rgba(0,212,170,0.3); }
     #formation { background: var(--dark2); }
 
     /* CONTACT */
@@ -258,6 +260,7 @@
           <span class="fpill g">Vue 3</span>
           <span class="fpill p">React</span>
           <span class="fpill">TypeScript</span>
+          <span class="fpill g">Spring Boot</span>
           <span class="fpill">MCP</span>
           <span class="fpill">Copilot</span>
         </div>
@@ -318,7 +321,7 @@
     </div>
     <div class="skill-card">
       <div class="skill-card-title">🛠️ Back & APIs</div>
-      <div class="tags"><span class="tag">NestJS</span><span class="tag">Spring Boot</span><span class="tag">Express</span><span class="tag">Sails.js</span><span class="tag">Elasticsearch</span></div>
+      <div class="tags"><span class="tag main">Spring Boot</span><span class="tag">NestJS</span><span class="tag">Express</span><span class="tag">Sails.js</span><span class="tag">Elasticsearch</span></div>
     </div>
     <div class="skill-card">
       <div class="skill-card-title">🚀 CI/CD & Cloud</div>
@@ -423,18 +426,20 @@
 <section class="certs" id="certifications">
   <p class="section-tag">// certifications</p>
   <h2 class="section-title">Certifications</h2>
-  <p class="section-subtitle">Front, JavaScript, et fondamentaux Claude.</p>
+  <p class="section-subtitle">Front, JavaScript, Claude, et accessibilité.</p>
   <div class="certs-grid">
-    <div class="cert-card">
+    <a class="cert-card" href="https://www.credly.com/badges/847d5501-2853-4250-a108-edcfca91b0fb" target="_blank">
       <div class="cert-icon">✦</div>
       <div class="cert-name">Claude Architect Foundations</div>
-      <div class="cert-year">Anthropic</div>
-    </div>
-    <div class="cert-card">
+      <div class="cert-year">2026</div>
+      <div class="cert-link-label">↗ Voir le certificat</div>
+    </a>
+    <a class="cert-card" href="https://www.credly.com/badges/8a0e78d3-e252-4f9a-b4bb-d9744f17d97f" target="_blank">
       <div class="cert-icon">✦</div>
       <div class="cert-name">Claude Developer Foundations</div>
-      <div class="cert-year">Anthropic</div>
-    </div>
+      <div class="cert-year">2026</div>
+      <div class="cert-link-label">↗ Voir le certificat</div>
+    </a>
     <a class="cert-card" href="https://interstate21.com/certificate/?code=6B25XLP" target="_blank">
       <div class="cert-icon">⚛️</div>
       <div class="cert-name">React Developer</div>
@@ -459,6 +464,11 @@
       <div class="cert-year">2023 – 2026</div>
       <div class="cert-link-label">↗ Voir le certificat</div>
     </a>
+    <div class="cert-card pending">
+      <div class="cert-icon">♿</div>
+      <div class="cert-name">Formation accessibilité</div>
+      <div class="cert-year">Access42 · en cours</div>
+    </div>
   </div>
 </section>
 <section id="interventions">
